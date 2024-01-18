@@ -2,7 +2,7 @@
   padding-top: 240px;
   padding-bottom: 440px;
   margin-bottom: 100px;
-  background: url("assets/background.png");
+  background: url('assets/background.png');
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-origin: border-box;
@@ -14,45 +14,48 @@
 }
 
 .content div span {
-  color: #d44d51;
-  font-family: Roboto;
+  color: #D44D51;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 30px; 
 }
 
-.content div h2 {
-  color: var(--Colour-Main-Blue-900, #091133);
-  font-feature-settings: "clig" off, "liga" off;
-
-  /* Medium 50 */
-  font-family: Roboto;
-  font-size: 50px;
+footer {
+  background-color: #F78282;
+  padding-top: 68px;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 66px; /* 132% */
-  letter-spacing: 1px;
+
 }
 
-.header {
+#superior {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  border-bottom: 1px solid #FFFFFF;
+  margin-left: 165px;
+  margin-right: 165px;
 }
 
-ul {
-  color: #cd313e;
-  font-family: Roboto;
+#copyright {
+  color: #FFFFFF;
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Medium 14 */
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 24px; /* 171.429% */
+  margin-bottom: 50px;
 }
 
-button {
-  width: 189.131px;
-  height: 36px;
-  flex-shrink: 0;
-  background-color: #cd313e;
-  color: #fff;
+#botaoRodape {
+  width: 109px;
+  height: 26px;
+  margin-bottom: 50px;
+  background: #D04A3B;
+  text-align: center;
+  color: var(--colour-secondary-white-100-general, #FFF);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 12px;
+  line-height: 18px;
 }

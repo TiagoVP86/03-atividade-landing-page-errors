@@ -2,7 +2,12 @@
 <html lang="pt-BR">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <!-- Adicionei um título -->
+    <title>Landing Page</title>
+    <!-- Adicionei a fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -36,24 +41,30 @@
       </div>
     </div>
 
-    <div style="background-color: #f78282; padding-top: 68px">
-      <div style="display: flex; justify-content: space-between">
-        <span style="color: white"> ©2023 {Yourcompany} </span>
+    <!-- Tag footer adicionada -->
+    <footer>
+      <div id="superior">
+          <span id="copyright">
+              ©2023 {Yourcompany}
+          </span>
 
-        <button>Purchase now</button>
+          <button id="botaoRodape">Purchase now</button>
       </div>
 
-      <div>
-        <ul style="display: flex; gap: 30px">
-          <span>Home</span>
-          Abut
-          <span>Contact</span>
-        </ul>
 
-        <ul>
-          <img src="/assets/social.png" alt="Social" />
-        </ul>
-      </div>
-    </div>
+      <nav>
+          <ul style="display: flex; gap: 30px;">
+              <span>Home</span>
+              Abut
+              <span>Contact</span>
+          </ul>
+
+          <ul>
+              <img src="/assets/social.png" alt="Social">
+          </ul>
+      </nav>
+
+    </footer>
   </body>
 </html>
+
