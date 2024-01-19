@@ -1,20 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
 body {
+  padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  background: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: auto;
+  height: 160vh;
 }
 
 header {
   display: flex;
+  font-family: "Roboto";
   justify-content: space-around;
-  padding: 16px;
-  background-color: #f78282;
+  padding-top: 16px;
 }
 
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 16px;
-  color: white;
+  gap: 60px;
+  color: #cd313e;
 }
 
 .header img {
@@ -34,9 +41,9 @@ button {
 main a {
   color: black;
   text-decoration: none;
-  margin-left: 5px;
+  margin-left: 20px;
   border: 3px solid black;
-  padding: 10px 20px;
+  padding: 7px 50px;
   border-radius: 2px;
 }
 
@@ -49,12 +56,8 @@ main {
 }
 
 .content {
-  background: url("/03-atividade-landing-page-errors/assets/background.png")
-    no-repeat 100% 100%;
-  padding-top: 240px;
-  padding-bottom: 440px;
-  margin-bottom: 100px;
-  position: relative;
+  height: 140vh;
+  padding-bottom: 100px;
 }
 
 .content article {
@@ -64,7 +67,7 @@ main {
 
 .content h2 {
   color: #091133;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   line-height: 66px;
   letter-spacing: 1px;
@@ -83,7 +86,6 @@ ul {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
 }
 
 button {
@@ -91,6 +93,15 @@ button {
   height: 36px;
   flex-shrink: 0;
   background-color: #cd313e;
+  color: #fff;
+}
+
+footer {
+  background-color: #f78282;
+  padding-top: 68px;
+}
+
+footer div {
   color: #fff;
 }
 
@@ -112,8 +123,7 @@ footer .footer ul {
   display: flex;
   justify-content: center;
   gap: 60px;
-
-  padding-bottom: 32px;
+  padding-left: 0;
 }
 
 footer .footer ul li {
@@ -127,7 +137,6 @@ footer .footer ul li a {
   font-size: 14px;
   font-style: normal;
   font: 400;
-  line-height: 24px;
 }
 
 footer .footer .social {
