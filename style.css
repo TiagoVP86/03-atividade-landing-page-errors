@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -23,33 +22,35 @@ header nav ul {
   height: auto;
 }
 
-button { /* Estilizando o Button do MAIN */
-  background-color:#CD313E;
+button {
+  /* Estilizando o Button do MAIN */
+  background-color: #cd313e;
   color: white;
-  padding: 10px 20px; 
-  border: none; 
-  cursor: pointer; 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 a {
-  color: black; 
-  text-decoration: none; 
-  margin-left: 5px; 
-  border: 3px solid black; 
-  padding: 10px 20px; 
-  border-radius: 2px; 
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+  border: 3px solid black;
+  padding: 10px 20px;
+  border-radius: 2px;
 }
 
 a:hover {
-  text-decoration: underline; 
-  background-color: #f8f9fa; 
+  text-decoration: underline;
+  background-color: #f8f9fa;
 }
 main {
   padding: 20px;
 }
 
 .content {
-  background: url("/03-atividade-landing-page-errors/assets/background.png") no-repeat 100% 100%;
+  background: url("/03-atividade-landing-page-errors/assets/background.png")
+    no-repeat 100% 100%;
   padding-top: 240px;
   padding-bottom: 440px;
   margin-bottom: 100px;
@@ -74,7 +75,6 @@ main {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  
 }
 
 ul {
@@ -93,9 +93,6 @@ button {
   background-color: #cd313e;
   color: #fff;
 }
-
-
-
 
 footer .line {
   border-top: 1px solid #fff;
