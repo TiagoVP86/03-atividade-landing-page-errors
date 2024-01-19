@@ -1,50 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-* {
+body {
   margin: 0;
-  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  background-color: #f78282;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  color: white;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  /* Estilizando o Button do MAIN */
+  background-color: #cd313e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+  border: 3px solid black;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #f8f9fa;
+}
+main {
+  padding: 20px;
 }
 
 .content {
+  background: url("/03-atividade-landing-page-errors/assets/background.png")
+    no-repeat 100% 100%;
   padding-top: 240px;
   padding-bottom: 440px;
   margin-bottom: 100px;
-  background: url("assets/background.png");
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  background-origin: border-box;
+  position: relative;
 }
 
-.content div {
-  background-color: #cecece;
+.content article {
   width: 540px;
+  padding: 20px;
 }
 
-.content div span {
-  color: #d44d51;
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.content div h2 {
-  color: var(--Colour-Main-Blue-900, #091133);
-  font-feature-settings: "clig" off, "liga" off;
-
-  /* Medium 50 */
-  font-family: Roboto;
-  font-size: 50px;
-  font-style: normal;
+.content h2 {
+  color: #091133;
+  font-size: 40px;
   font-weight: 500;
-  line-height: 66px; /* 132% */
+  line-height: 66px;
   letter-spacing: 1px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-around;
+.content p {
+  color: #d44d51;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 ul {
