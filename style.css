@@ -47,8 +47,8 @@ main a {
   border-radius: 2px;
 }
 
-a:hover {
-  text-decoration: underline;
+main a:hover {
+  text-decoration: none;
   background-color: #f8f9fa;
 }
 main {
